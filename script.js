@@ -1,11 +1,6 @@
 import { drawFood, updateFood } from "./food.js";
 import { outSideGrid } from "./grid.js";
-import {
-  drawSnake,
-  getSnakeHead,
-  snake_speed,
-  updateSnake,
-} from "./snake.js";
+import { drawSnake, getSnakeHead, snake_speed, updateSnake } from "./snake.js";
 
 let lastRenderTime = 0;
 
