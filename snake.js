@@ -9,6 +9,7 @@ let newSegment = 1;
 export function updateSnake() {
   const inputDir = getDiraction();
 
+  
   for (let i = snakeBody.length - 2; i >= 0; i--) {
     snakeBody[i + 1] = { ...snakeBody[i] };
   }
